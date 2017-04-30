@@ -1,0 +1,3 @@
+li {display: inline;}
+a:visited {color:black;}
+a.nounderline:link {text-decoration:none;border:2px solid black;}
