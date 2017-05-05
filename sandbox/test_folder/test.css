@@ -1,0 +1,18 @@
+table{
+    border: soid red 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: cursive
+}
+td {
+    border: solid green 1px;
+}
+td.title {
+    text-align: center
+}
+nav.top {
+    text-align: right;
+}
+td.start {
+    text-align: center;
+}
