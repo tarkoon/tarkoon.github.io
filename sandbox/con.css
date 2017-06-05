@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    height:100px;
+    width:100px;
+}
+ul a{
+    padding: 10px;
+    text-decoration: none;
+}
+nav {
+    margin-right: 18px;
+}
+
+.image {
+    position: relative; 
+    width: 100%;
+}
+.texthead{
+    position: absolute; 
+    top: 70px;
+    right:0px;
+    left:400px;
+    width: 100%;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.textbody{
+    position: absolute; 
+    top: 120px;
+    right:0px;
+    left:290px;
+    width: 100%;
+}
+body {
+    max-width: 900px;
+    width: 80%;
+    margin: auto;
+}
+.c1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}

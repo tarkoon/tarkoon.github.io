@@ -1,0 +1,63 @@
+* {
+ box-sizing: border-box;    /* changes width property to total width instead of content width */
+
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main,
+figcaption,
+figure {
+  display: block;   /* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
+}
+
+body {
+    margin: 0;  /* remove any margin from body to avoid unsightly gaps. */
+    padding: 0;  /* ditto for padding  */
+    background-color: salmon;    
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+nav ul li {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+li a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: -40px;
+    right: 0;
+}
+.title h1 + h1 {
+    text-align: right;
+    margin-top: -.7em;
+}
+footer {
+    position: fixed;
+    bottom: 75px;
+    left: 0px;
+    right: 0;
+}
+.flow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
